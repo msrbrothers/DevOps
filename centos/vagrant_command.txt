@@ -1,0 +1,150 @@
+1. wsl -l -- for checking the folder inside this
+2. wsl -l -v   -- for checking the ststus 
+3. wsl --shutdown -- if running vm then shutchdown for them
+4. wsl --export docker-desktop-data D:\system-softwares\docker-data\dockerdesktop.tar
+5. wsl --unregister docker-desktop-data
+6. wsl --import docker-desktop-data D:\system-softwares\docker-data\dockerdesktop D:\system-softwares\docker-data\dockerdesktop.tar
+
+
+
+
+
+Get-Content "Vagrantfile" -Tail 10
+
+
+vagrant global-status
+
+vagrant reload --provision
+
+vagrant up
+
+vagrant init
+
+vagrant destroy f944254
+
+vagrant global-status --prune for forse cleare
+
+
+ vagrant halt == shutdown of VM.
+ 
+ vagrant box list
+ 
+ vagrant box remove generic/ubuntu1804
+ 
+ vagrant ssh // to login inside the VM
+ 
+   if we ssh work done then 
+   
+sudo -i -- switch to root user
+
+yum install httpd wget vim unzip zip -y  // install depency 
+
+systemctl start httpd  // start these service 
+
+systemctl enable httpd  // eneble these service
+
+ ip addr show // to check the ip inside the VM
+ 
+ // if we are adding something inside the file then complted the edit click on ESC THE :wq
+
+
+vi /etc/hostname  -- give the hostname
+
+hostname msr-clean-room
+
+exit
+ 
+https://www.tooplate.com/zip-templates/2132_clean_work.zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hisrty
+
+ 1  vi /etc/hostname
+    2  hostname msr-clean-room
+    3  exit
+    4  yun install httpd wget vim unzip zip -y
+    5  yum install httpd wget vim unzip zip -y
+    6  systemctl stsrt httpd
+    7  systemctl start httpd
+    8  systemctl enable httpd
+    9  ip addr show
+   10  cd /var/www/html/
+   11  ls
+   12  vim index.html
+   13  ls
+   14  cd /temp/
+   15  vim temp
+   16  ls
+   17  vim /temp
+   18  ls
+   19  vim /temp/
+   20  ls
+   21  ip addr show
+   22  vim index.html
+   23  ls
+   24  cd /var/www/html/
+   25  systemctl restart httpd
+   26  exit
+   27  ls
+   28  yun install httpd wget vim unzip zip -y
+   29  yum install httpd wget vim unzip zip -y
+   30  systemctl start httpd
+   31  systemctl enable httpd
+   32   ip addr show
+   33  ls
+   34  cd /var/www/html/
+   35  ls
+   36  mkdir temp
+   37  ls
+   38  cd /temp
+   39  cd /temp/
+   40  cd temp/
+   41  cp source C:\Users\ravin\Downloads\2132_clean_work.zip
+   42  cp ~/2132_clean_work.zip /mnt/c/Users/ravin/Downloads/
+   43  wget https://www.tooplate.com/zip-templates/2132_clean_work.zip
+   44  ls
+   45  unzip 2132_clean_work.zip
+   46  ls
+   47  cd 2132_clean_work/
+   48  ls
+   49  cp -r * /var/www/html/
+   50  cd ..
+   51  ls
+   52  systemctl restart httpd
+   53  histry
+   54  exit
+   55  history
+
+
+// Create file 
+
+ echo "hello world" > clean_work
+ 
+ notepad .\Vagrantfile  // for opening the file
+ 
+ 
+ 
